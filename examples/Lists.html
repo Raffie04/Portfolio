@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>List Examples</title>
+    <style>
+      #Eeveelutions {
+        list-style-type: circle;}
+
+      #Eeveelutions li:first-child {
+          color: plum;}
+
+      #Eeveelutions li:nth-child(2) {
+              color: paleturquoise;}
+
+      #Eeveelutions li:nth-child(3) {
+                      color: palegreen;}
+
+      #Eeveelutions li:last-child {
+          color: pink;
+        }
+      #MyNavBar ol {
+          background: pink;
+          list-style-type: none;
+          padding-inline-start: 0px
+        }
+
+      #MyNavBar ol li {
+        display: inline-block;
+        padding: 12px 24px
+      }
+     #cta {
+      float: right;
+    }
+
+    #MyNavBar ol li:hover {
+      background: #ff007f;
+    }
+
+    </style>
+  </head>
+  <body>
+<nav id="MyNavBar">
+  <ol>
+  <li>Home</li>
+  <li>Gallery</li>
+  <li>About Me</li>
+  <li id="cta">Sign Up</li>
+  </ol>
+</nav>
+
+<ul id="Eeveelutions">
+  <li>Espeon</li>
+  <li>Glaceon</li>
+  <li>Leafeon</li>
+  <li>Syvleon</li>
+</ul>
+
+  </body>
+</html>
