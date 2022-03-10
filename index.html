@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ItzRaffieDesigns.com</title>
+    <title>Raffie Designs</title>
     <style>
     #MyNavBar ul {
         background: white;
         list-style-type: none;
-        padding-inline-start: 0px
+        padding-inline-start: 0px;
+        text-align: center;
       }
 
       #MyNavBar ul li:hover {
@@ -14,29 +15,64 @@
 
     #MyNavBar ul li {
       display: inline-block;
-      padding: 12px 24px;
+      padding: 22px 44px;
     }
+
+#Home a {
+  color: black;
+  font-size: 40px;
+  font-family: Garamond;
+  text-decoration: none;
+}
+
 #Gallery a {
   color: black;
+  font-size: 40px;
+  font-family: Garamond;
   text-decoration: none;
 }
 
 #AboutMe a {
   color: black;
+  font-size: 40px;
+  font-family: Garamond;
   text-decoration: none;
 }
 
 #Contact a {
   color: black;
+  font-size: 40px;
+  font-family: Garamond;
   text-decoration: none;
+}
+
+#logo {
+  height: 250px;
+}
+#ImageDiv {
+  text-align:center;
+  margin-bottom: 50px
+}
+
+#CompanyName {
+  font-size: 100px;
+  vertical-align:top;
+  padding-left: 80px
 }
     </style>
   </head>
   <body style="
   background-color: #F3BAD5";>
+  <div id="ImageDiv">
+    <img id="logo" src="images/Website.Logo.png">
+    <div id="CompanyName">
+      Raffie Designs
+    </div>
+</div>
+
     <nav id="MyNavBar">
       <ul>
-      <li>Home</li>
+      <li id="Home"><a href="index.html">Home</a></li>
       <li id="Gallery">
       <a href="PortfolioFolder/Gallery.html"> Gallery</a>
       </li>
