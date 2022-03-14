@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- This is the Alice  Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+<!-- This is the Amethysta Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amethysta&display=swap" rel="stylesheet">
     <title>Raffie Designs</title>
     <style>
     #MyNavBar ul {
@@ -57,7 +65,27 @@
 #CompanyName {
   font-size: 100px;
   vertical-align:top;
-  padding-left: 80px
+  padding-left: 80px;
+  font-family: 'Alice', serif;
+}
+
+.Quote {
+  text-align: center;
+  width: 55%;
+  font-family: 'Amethysta', serif;
+  font-size: 64px
+}
+}
+#Image {
+  width: 40%;
+}
+.Quote,
+#Image{
+  display:inline-block;
+}
+#QuoteAuthor {
+  text-align: right;
+  font-size: 30px
 }
     </style>
   </head>
@@ -84,6 +112,19 @@
       </li>
     </ul>
     </nav>
-
+<div id="FullQuote">
+ <div class="Quote">
+  <div> Don't let others'</div>
+  <div> Rain</div>
+  <div> Extinguish your</div>
+  <div> Flame</div>
+  <div id="QuoteAuthor">-Raffie</div>
+ </div>
+ <div id="Image">
+   <img
+     src="images/pinkVibes.jpg"
+     style="height: 500px"
+     />
+</div>
   </body>
 </html>
