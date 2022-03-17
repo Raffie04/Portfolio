@@ -23,7 +23,7 @@
 
     #MyNavBar ul li {
       display: inline-block;
-      padding: 22px 44px;
+      padding: 15px 40px;
     }
 
 #Home a {
@@ -63,69 +63,73 @@
 }
 
 #CompanyName {
-  font-size: 100px;
+  font-size: 90px;
   vertical-align:top;
   padding-left: 80px;
   font-family: 'Alice', serif;
 }
 
 .Quote {
-  text-align: center;
+  text-align: left;
   width: 55%;
   font-family: 'Amethysta', serif;
-  font-size: 64px
+  font-size: 40px;
+  padding-top: 125px;
 }
-}
+
 #Image {
   width: 35%;
-  text-align:left;
+  text-align: center;
+  padding-top: 25px;
 }
 .Quote,
 #Image{
-  display:inline-block;
+  flex: 1;
 }
 #QuoteAuthor {
-  text-align: right;
-  font-size: 30px
+  text-align: center;
+  font-size: 30px;
+  padding-right: 70px;
+}
+#FullQuote {
+  display:flex;
 }
     </style>
   </head>
-  <body style="
-  background-color: #F3BAD5";>
-  <div id="ImageDiv">
-    <img id="logo" src="images/Website.Logo.png">
-    <div id="CompanyName">
-      Raffie Designs
+  <body style="background-color: #F3BAD5";>
+    <div id="ImageDiv">
+      <img id="logo" src="images/Website.Logo.png">
+      <div id="CompanyName">
+        Raffie Designs
+      </div>
     </div>
-</div>
 
     <nav id="MyNavBar">
       <ul>
-      <li id="Home"><a href="index.html">Home</a></li>
-      <li id="Gallery">
-      <a href="PortfolioFolder/Gallery.html"> Gallery</a>
-      </li>
-      <li id="AboutMe">
-        <a href="PortfolioFolder/AboutMe.html">About Me</a>
-      </li>
-      <li id="Contact">
-        <a href="PortfolioFolder/Contact.html">Contact</a>
-      </li>
-    </ul>
+        <li id="Home"><a href="index.html">Home</a></li>
+        <li id="Gallery">
+          <a href="PortfolioFolder/Gallery.html"> Gallery</a>
+        </li>
+        <li id="AboutMe">
+          <a href="PortfolioFolder/AboutMe.html">About Me</a>
+        </li>
+        <li id="Contact">
+          <a href="PortfolioFolder/Contact.html">Contact</a>
+        </li>
+      </ul>
     </nav>
-<div id="FullQuote">
- <div class="Quote">
-  <div> Don't let others'</div>
-  <div> rain</div>
-  <div> extinguish your</div>
-  <div> flame</div>
-  <div id="QuoteAuthor">-Raffie</div>
- </div>
- <div id="Image">
-   <img
-     src="images/PersonalityPentagram.jpg"
-     style="height: 500px"
-     />
-</div>
+    <div id="FullQuote">
+      <div id="Image">
+        <img
+          src="images/FABULOUS.Edited.jpg"
+          style="height: 400px"
+         />
+     </div>
+      <div class="Quote">
+        <div> Don't let others' rain</div>
+        <div> extinguish your flame</div>
+        <div id="QuoteAuthor">-Raffie</div>
+      </div>
+    </div>
   </body>
 </html>
