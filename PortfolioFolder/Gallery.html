@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Raffie Designs</title>
+    <style>
+      .myGrid{
+        display: grid;
+        grid-template-columns: 225px 1fr 1fr 1fr 225px;
+        grid-auto-rows: minmax(50px, auto);
+        grid-template-areas:
+            "sidenav gallery1 gallery2 gallery3 .";
+      }
+#Col1 { grid-area: gallery1; }
+#Col2 { grid-area: gallery2; }
+#Col3 { grid-area: gallery3; }
+      #CompanyName {
+        font-size: 90px;
+        vertical-align:top;
+        text-align:center;
+        font-family: 'Alice', serif;
+      }
+      #GalleryTitle {
+        color: black;
+        text-align:center;
+        font-size: 40px;
+      }
+      #MyNavBar { grid-area: sidenav; }
+      #MyNavBar ul {
+          list-style-type: none;
+          padding-inline-start: 0px;
+
+        }
+
+        #MyNavBar ul li:hover {
+          background: #EF6DA7}
+
+      #MyNavBar ul li {
+        padding: 15px;
+      }
+
+        #Home a {
+          color: black;
+          font-size: 45px;
+          font-family: Garamond;
+          text-decoration: none;
+        }
+
+        #Gallery a {
+          color: black;
+          font-size: 45px;
+          font-family: Garamond;
+          text-decoration: none;
+        }
+
+        #AboutMe a {
+          color: black;
+          font-size: 45px;
+          font-family: Garamond;
+          text-decoration: none;
+        }
+
+        #Contact a {
+          color: black;
+          font-size: 45px;
+          font-family: Garamond;
+          text-decoration: none;
+        }
+        .PortfilioParts {
+          background: white;
+        }
+    </style>
+  </head>
+  <body style="background-color: #F3BAD5";>
+    <div id="CompanyName">
+      Raffie Designs
+    </div>
+    <div id="GalleryTitle">Gallery</div>
+    <br></br>
+      <div class="myGrid">
+          <nav id="MyNavBar">
+      <ul>
+        <li id="Home"><a href="../index.html">Home</a></li>
+        <li id="Gallery">
+          <a href="PortfolioFolder/Gallery.html"> Gallery</a>
+        </li>
+        <li id="AboutMe">
+          <a href="PortfolioFolder/AboutMe.html">About Me</a>
+        </li>
+        <li id="Contact">
+          <a href="PortfolioFolder/Contact.html">Contact</a>
+        </li>
+      </ul>
+      </nav>
+      <div id="Col1" class="PortfilioParts">
+
+      </div>
+      <div id="Col2" class="PortfilioParts">
+
+      </div>
+      <div id="Col3" class="PortfilioParts">
+
+      </div>
+    </div>
