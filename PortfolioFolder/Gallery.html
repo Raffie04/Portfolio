@@ -10,9 +10,14 @@
         grid-template-areas:
             "sidenav gallery1 gallery2 gallery3 .";
       }
-#Col1 { grid-area: gallery1; }
-#Col2 { grid-area: gallery2; }
-#Col3 { grid-area: gallery3; }
+
+#Col1 { grid-area: gallery1; text-align: center;}
+#Col2 { grid-area: gallery2; text-align: center;}
+#Col3 { grid-area: gallery3; text-align: center;}
+
+#Col1 img { width: calc(100% - 40px); margin: 20px;}
+#Col2 img { width: calc(100% - 40px); margin: 20px;}
+#Col3 img { width: calc(100% - 40px); margin: 20px;}
       #CompanyName {
         font-size: 90px;
         vertical-align:top;
@@ -92,12 +97,16 @@
       </ul>
       </nav>
       <div id="Col1" class="PortfilioParts">
-
+        <img src="../images/Portfolio/GalaxyPlutoWeb.jpg"/>
+        <img src="../images/Portfolio/GalaxyMeWeb.jpg"/>
       </div>
       <div id="Col2" class="PortfilioParts">
-
+        <img src="../images/Portfolio/SunriseWeb.jpg"/>
+        <img src="../images/Portfolio/LyreWeb.jpg"/>
       </div>
       <div id="Col3" class="PortfilioParts">
-
+        <img src="../images/Portfolio/HaitiWeb.jpg"/>
+        <img src="../images/Portfolio/ValentinesDayWeb.jpg"/>
+        <img src="../images/Portfolio/PinkSkyWeb.jpg"/>
       </div>
     </div>
