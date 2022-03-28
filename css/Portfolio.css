@@ -1,0 +1,19 @@
+
+/* This is the breakpoint for a samsung
+/* The styles within this media query will only be applied
+  on a screen where the width is at least 480px and at most 799px */
+  @media screen and (min-width: 360px) and (max-width: 412px) {
+    #CompanyName {font-size: 20px; }
+  }
+
+/* This is the breakpoint for a iphone */
+/* The styles within this media query will only be applied
+  on a screen where the width is at most 479px */
+  @media screen and (min-width: 414px) and (max-width: 896px) {
+  }
+
+/* This is the breakpoint for a tablet - part 1 */
+/* The styles within this media query will only be applied
+  on a screen where the width is at most 479px */
+  @media screen and (min-width: 768px) and (max-width: 820px) {
+  }
