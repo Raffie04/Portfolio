@@ -50,28 +50,41 @@
 
       /* your CSS for tablet goes in here */
       @media screen and (min-width: 480px) and (max-width: 799px) {
-      header {
-        font-size: 20px;}
-      header,
-      main {
-        padding: 4px 36px;}
-      nav {
-        flex-wrap: wrap;}
-      nav .importantLink {
-        flex-basis: 100%;}
 
-      nav .normalLink {
-        flex-basis: 33.33%;
-        padding: 20px;
-      color: pink;}
+                    header {
+                              font-size: 40px;
+                            color: white;}
+                    header,
+                    main {
+                              padding: 10px 36px;}
+                    nav {
+                              flex-wrap: wrap;}
+                    nav .importantLink {
+                              flex-basis: 100%;}
 
-      }
+                    nav .normalLink {
+                        padding: 20px;}
+                        .fakeLink {
+                          background: pink;}
+                        .fakeLink2 {
+                        background: lavender;}
+
+                    .fakeLink:hover,
+                    .fakeLink2:hover {
+                    opacity: 100%;
+                    font-weight: bold;
+                    color: paleturquoise;}
+                    footer {
+                   font-size: 40px;
+                    color: white;}
+                    }
 
       /* your CSS for desktop goes in here */
       @media screen and (min-width: 800px) {
 
             header {
-              font-size: 40px;}
+              font-size: 40px;
+            color: white;}
             header,
             main {
               padding: 10px 36px;}
@@ -81,11 +94,21 @@
               flex-basis: 100%;}
 
             nav .normalLink {
-              flex-basis: 33.33%;
               padding: 20px;}
               .fakeLink {
-                color: pink;}
-          }
+                background: pink;}
+              .fakeLink2 {
+                  background: lavender;
+                }
+
+                .fakeLink:hover,
+                .fakeLink2:hover {
+                  opacity: 100%;
+                  font-weight: bold;
+                color: paleturquoise;}}
+          footer {
+            font-size: 40px;
+            color: white;  }
     </style>
   </head>
   <body>
