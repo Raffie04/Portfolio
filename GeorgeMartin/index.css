@@ -28,3 +28,10 @@ align-items: center;
   font-size: 40px;
   font-weight: bold;
 }
+
+#grid {
+  grid-template-columns: 1fr 333px 334px 333px 1fr;
+}
+#FireandIce {
+text-align: center;
+}
