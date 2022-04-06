@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Hey queen</title>
+    <style>
+      .myGrid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-template-areas:
+            "header header header header header"
+            "sidenav content content content nav";
+      }
+      .header {
+        background-color: #FF9191;
+        padding: 16px;
+        grid-area: header;
+        color: white;
+      }
+      .sidenav {
+        background-color: #66D986;
+        grid-area: sidenav;
+        padding: 6px;
+      }
+      .content {
+        grid-area: content;
+        padding: 6px;
+        background-color: #D96666;
+      }
+      #nav {
+        background-color: ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="myGrid">
+      <div class="header">
+        <h1>This is how page layouts can be done with grids (and areas)</h1>
+      </div>
+      <div class="sidenav">
+        <ul>
+          <li>Besties </li>
+          <li>Fave Foods</li>
+          <li>Fave Gamez
+
+        </ul>
+      </div>
+      <div class="content">
+        <div>
+<h3 id="Quotes">These are random songs</h3>
+<ul>
+<li>Criminal - Britney Spears</li>
+<li>Wonderland - AleXa</li>
+<li>Rainin Fellas - Todrick Hall</li>
+<li>WIG - Todrick Hall</li>
+<li>What Ekse Can I do? - Stephanie Beatriz, Diane Guerrero</li>
+<li>Woman - Doja Cat</li>
+<li>Confetti -  Little Mix</li>
+</ul>
+</div>
+<footer>Your welcome BESTAYY</footer>
+
+  </body>
+</html>
