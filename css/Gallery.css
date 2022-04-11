@@ -3,9 +3,12 @@
   grid-template-columns: 225px 1fr 1fr 1fr 225px;
   grid-auto-rows: minmax(50px, auto);
   grid-template-areas:
+      "logo header header header ."
+      ". title title title ."
       "sidenav gallery1 gallery2 gallery3 .";
 }
-
+#CompanyName {grid-area: header}
+#GalleryTitle {grid-area: title}
 #Col1 { grid-area: gallery1; text-align: center;}
 #Col2 { grid-area: gallery2; text-align: center;}
 #Col3 { grid-area: gallery3; text-align: center;}
@@ -24,7 +27,9 @@
   text-align:center;
   font-size: 40px;
 }
-#MyNavBar { grid-area: sidenav; }
+#MyNavBar {
+  grid-area: sidenav;
+  margin-right: 10px;}
 #MyNavBar ul {
     list-style-type: none;
     padding-inline-start: 0px;
@@ -32,7 +37,13 @@
   }
 
   #MyNavBar ul li:hover {
-    background: #EF6DA7}
+    background-color: #EF6DA7;
+    color: white;
+  }
+
+#MyNavBar ul li:hover a {
+  color: white;
+}
 
 #MyNavBar ul li {
   padding: 15px;
