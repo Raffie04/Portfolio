@@ -1,0 +1,77 @@
+.myGrid{
+  display: grid;
+  grid-template-columns: 225px 1fr 1fr 1fr 225px;
+  grid-auto-rows: minmax(50px, auto);
+  grid-template-areas:
+      "logo header header header ."
+      ". title title title ."
+      "sidenav info info info .";
+    }
+    #CompanyName {grid-area: header}
+    #ContactTitle {grid-area: title}
+
+    #CompanyName {
+      font-size: 90px;
+      vertical-align:top;
+      text-align:center;
+      font-family: 'Alice', serif;
+    }
+    #ContactTitle {
+      color: black;
+      text-align:center;
+      font-size: 40px;
+    }
+
+#MyNavBar {
+  grid-area: sidenav;
+  margin-right: 10px;}
+#MyNavBar ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+
+  }
+
+  #MyNavBar ul li:hover {
+    background-color: #EF6DA7;
+    color: white;
+  }
+
+#MyNavBar ul li:hover a {
+  color: white;
+}
+
+#MyNavBar ul li {
+  padding: 15px;
+}
+
+  #Home a {
+    color: black;
+    font-size: 45px;
+    font-family: Garamond;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #Gallery a {
+    color: black;
+    font-size: 45px;
+    font-family: Garamond;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #AboutMe a {
+    color: black;
+    font-size: 45px;
+    font-family: Garamond;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #Contact a {
+    color: black;
+    font-size: 45px;
+    font-family: Garamond;
+    text-decoration: none;
+    cursor: pointer;
+  }

@@ -5,7 +5,7 @@
     <style>
       #hero {
         align-items: top;
-        background-image: url("https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80");
+        background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80");
         display: flex;
         height: 500px;
         justify-content: center;
@@ -16,8 +16,8 @@
         color: #B409F0;
       }
       #Pic {
-        display: flex;
-        justify-content: center;
+      height: 200px;
+      align-items: center;
       }
       }
     </style>
@@ -25,6 +25,8 @@
   <body>
     <div id="hero">
       <h1 id="countdown">Countdown</h1>
+
+          <img id="Pic" src="../Images/Others/Website.Logo.png">
     </div>
     <script type="text/javascript">
     let deadline = new Date("July 22, 2022 13:00:00");
@@ -51,6 +53,5 @@
 
     setInterval(setCountdown, 1000);
     </script>
-    <img id="Pic" src="../Images/Others/Website.Logo.png">
   </body>
 </html>
