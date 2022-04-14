@@ -5,20 +5,31 @@
     <style>
       #hero {
         align-items: top;
-        background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80");
+        background-image: url("https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80");
         display: flex;
         height: 500px;
         justify-content: center;
         background-size: cover;
+        flex-wrap: wrap;
       }
       #countdown {
         display: inline-block;
-        color: #B409F0;
+        animation-name: Gradient;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        flex-basis: 100%;
+        text-align: center;
       }
       #Pic {
       height: 200px;
       align-items: center;
       }
+
+      @keyframes Gradient {
+        0% {color: #FFB4BF; }
+        25% {color: #FEE7C6; }
+        50% {color: #CAA9D0; }
+        100% {color: #9DD1F8;}
       }
     </style>
   </head>
@@ -29,7 +40,7 @@
           <img id="Pic" src="../Images/Others/Website.Logo.png">
     </div>
     <script type="text/javascript">
-    let deadline = new Date("July 22, 2022 13:00:00");
+    let deadline = new Date("July 22, 2022 17:00:00");
 
     function setCountdown() {
       let now = new Date();

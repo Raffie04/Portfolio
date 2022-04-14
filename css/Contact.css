@@ -5,10 +5,15 @@
   grid-template-areas:
       "logo header header header ."
       ". title title title ."
-      "sidenav info info info .";
+      "sidenav info info info2 .";
     }
-    #CompanyName {grid-area: header}
-    #ContactTitle {grid-area: title}
+    #CompanyName {grid-area: header;}
+    #ContactTitle {grid-area: title;}
+    #Empty {
+      grid-area: info2;
+      width: 100%;
+      background-color: white;
+    }
 
     #CompanyName {
       font-size: 90px;
@@ -75,3 +80,37 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  form h1 {
+    text-align: center;
+  }
+.ContactInfo {
+  grid-area: info;
+  background-color: white;
+  padding: 10px;
+}
+
+#FullNameContainer label,
+#EmailContainer label,
+#MessageContainer label {
+  display: block;
+  margin-bottom: 5px;}
+
+#MessageContainer textarea {
+height: 200px;
+width: calc(100% - 10px);
+}
+#FullNameContainer input,
+#EmailContainer input {
+  height: 30px;
+  width: calc(50% - 10px);
+}
+#Button {
+  background-color: #A9DEEC;
+  padding: 10px;
+  border: none;
+}
+#Button:hover {
+  color: white;
+  cursor: pointer;
+}
