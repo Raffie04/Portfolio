@@ -37,3 +37,5 @@ function showPreviousSlide() {
   currentSlideIndex -= 1;
   showSlide();
 }
+
+showSlide();
