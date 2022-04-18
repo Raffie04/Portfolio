@@ -7,6 +7,8 @@
       ". title title title ."
       "sidenav gallery1 gallery2 gallery3 .";
 }
+#logo {grid-area: logo;}
+#logo {height: 150px;}
 #CompanyName {grid-area: header}
 #GalleryTitle {grid-area: title}
 #Col1 { grid-area: gallery1; text-align: center;}
