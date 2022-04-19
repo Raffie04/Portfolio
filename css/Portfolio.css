@@ -1,0 +1,121 @@
+#MyNavBar ul {
+    background: white;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    text-align: center;
+  }
+
+  #MyNavBar ul li:hover {
+    background: #EF6DA7}
+
+#MyNavBar ul li {
+  display: inline-block;
+  padding: 15px 40px;
+}
+
+#Home a {
+color: black;
+font-size: 40px;
+font-family: Garamond;
+text-decoration: none;
+cursor: pointer;
+}
+
+#Gallery a {
+color: black;
+font-size: 40px;
+font-family: Garamond;
+text-decoration: none;
+cursor: pointer;
+}
+
+#AboutMe a {
+color: black;
+font-size: 40px;
+font-family: Garamond;
+text-decoration: none;
+cursor: pointer;
+}
+
+#Contact a {
+color: black;
+font-size: 40px;
+font-family: Garamond;
+text-decoration: none;
+cursor: pointer;
+}
+
+#logo {
+height: 250px;
+}
+#ImageDiv {
+text-align:center;
+margin-bottom: 50px
+}
+
+#CompanyName {
+display: flex;
+justify-content: center;
+font-size: 90px;
+vertical-align:top;
+padding-left: 80px;
+font-family: 'Alice', serif;
+}
+
+.Quote {
+text-align: center;
+width: 55%;
+font-family: 'Amethysta', serif;
+font-size: 60px;
+padding-top: 125px;
+}
+
+#QuoteAuthor {
+text-align: center;
+font-size: 40px;
+padding-right: 70px;
+}
+#FullQuote {
+display:flex;
+justify-content: center;
+}
+
+
+/* This is the breakpoint on mobile
+/* The styles within this media query will only be applied
+  on a screen where the width is at least 480px and at most 799px */
+
+  @media screen and (max-width: 669px){
+    #CompanyName {
+      display: flex;
+      justify-content: center;
+      font-size: 70px;
+      text-align: center;
+      padding-left: 60px;
+      }
+    .Quote {
+      font-size: 40px;
+    }
+    #QuoteAuthor {
+      font-size: 30px;
+      text-align: right;
+    }
+    #MyNavBar ul li {
+      display: block;
+      padding: 15px 40px;
+    }
+  }
+
+@media screen and (min-width: 670px) and (max-width: 853px) {
+  #MyNavBar ul li {
+    display: block;
+    padding: 15px 40px;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  #CompanyName {
+    padding-left: 10px;
+  }
+  
+}
