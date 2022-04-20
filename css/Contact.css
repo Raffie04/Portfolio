@@ -16,7 +16,12 @@
       width: 100%;
       background-color: white;
     }
-
+    #ContactTitle {
+      color: black;
+      text-align:center;
+      font-size: 40px;
+      font-family: 'Amethysta', serif;
+    }
     #CompanyName {
       font-size: 90px;
       vertical-align:top;
@@ -54,7 +59,7 @@
   #Home a {
     color: black;
     font-size: 45px;
-    font-family: Garamond;
+    font-family: 'Amethysta', serif;
     text-decoration: none;
     cursor: pointer;
   }
@@ -62,7 +67,7 @@
   #Gallery a {
     color: black;
     font-size: 45px;
-    font-family: Garamond;
+    font-family: 'Amethysta', serif;
     text-decoration: none;
     cursor: pointer;
   }
@@ -70,7 +75,7 @@
   #AboutMe a {
     color: black;
     font-size: 45px;
-    font-family: Garamond;
+    font-family: 'Amethysta', serif;
     text-decoration: none;
     cursor: pointer;
   }
@@ -78,7 +83,7 @@
   #Contact a {
     color: black;
     font-size: 45px;
-    font-family: Garamond;
+    font-family: 'Amethysta', serif;
     text-decoration: none;
     cursor: pointer;
   }

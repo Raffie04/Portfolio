@@ -10,14 +10,34 @@
       "sidenav specialties work .";
 }
 
-#logo {grid-area: logo;}
+#ImageDiv {grid-area: logo;
+text-align: center;}
 #logo {height: 150px;}
 #CompanyName {grid-area: header;}
-#AboutTitleMe {grid-area: title;}
-#MyPic {grid-area: Myimage;}
+#AboutMeTitle {grid-area: title;}
+#Me {grid-area: Myimage;}
 #MyPic{height: 200px;}
 #WorkExperience {grid-area: work;}
+#Bio {grid-area: me;}
+#specialties{grid-area: specialties}
 
+#AboutMeTitle {
+  color: black;
+  text-align:center;
+  font-size: 40px;
+  font-family: 'Amethysta', serif;
+}
+#CompanyName {
+  font-size: 90px;
+  vertical-align:top;
+  text-align:center;
+  font-family: 'Alice', serif;
+}
+#AboutMeTitle {
+  color: black;
+  text-align:center;
+  font-size: 40px;
+}
 #MyNavBar {
   grid-area: sidenav;
   margin-right: 10px;}
@@ -43,7 +63,7 @@
   #Home a {
     color: black;
     font-size: 45px;
-    font-family: Garamond;
+    font-family: 'Amethysta', serif;
     text-decoration: none;
     cursor: pointer;
   }
@@ -51,7 +71,7 @@
   #Gallery a {
     color: black;
     font-size: 45px;
-    font-family: Garamond;
+    font-family: 'Amethysta', serif;
     text-decoration: none;
     cursor: pointer;
   }
@@ -59,7 +79,7 @@
   #AboutMe a {
     color: black;
     font-size: 45px;
-    font-family: Garamond;
+    font-family: 'Amethysta', serif;
     text-decoration: none;
     cursor: pointer;
   }
@@ -67,7 +87,58 @@
   #Contact a {
     color: black;
     font-size: 45px;
-    font-family: Garamond;
+    font-family: 'Amethysta', serif;
     text-decoration: none;
     cursor: pointer;
   }
+#Me {
+  display: flex;
+  justify-content: center;
+}
+#Bio {
+  display: block;
+  text-align: left;
+
+}
+.Column {
+  background-color: white;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 669px){
+  .myGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:
+        "logo"
+        "header"
+        "title"
+        "sidenav"
+        "Myimage"
+        "me"
+        "specialties"
+        "work";
+      }
+
+  #CompanyName {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    text-align: center;
+    padding-left: 60px;
+    }
+
+    #MyNavBar ul li {
+      display: block;
+      padding: 15px 40px;
+      text-align: center;
+    }
+    @media screen and (max-width: 522px) {
+      #CompanyName {
+        padding-left: 10px;
+      }
+
+    }
+}

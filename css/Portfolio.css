@@ -16,7 +16,7 @@
 #Home a {
 color: black;
 font-size: 40px;
-font-family: Garamond;
+font-family: 'Amethysta', serif;
 text-decoration: none;
 cursor: pointer;
 }
@@ -24,7 +24,7 @@ cursor: pointer;
 #Gallery a {
 color: black;
 font-size: 40px;
-font-family: Garamond;
+font-family: 'Amethysta', serif;
 text-decoration: none;
 cursor: pointer;
 }
@@ -32,7 +32,7 @@ cursor: pointer;
 #AboutMe a {
 color: black;
 font-size: 40px;
-font-family: Garamond;
+font-family: 'Amethysta', serif;
 text-decoration: none;
 cursor: pointer;
 }
@@ -40,7 +40,7 @@ cursor: pointer;
 #Contact a {
 color: black;
 font-size: 40px;
-font-family: Garamond;
+font-family: 'Amethysta', serif;
 text-decoration: none;
 cursor: pointer;
 }
@@ -117,5 +117,5 @@ justify-content: center;
   #CompanyName {
     padding-left: 10px;
   }
-  
+
 }
