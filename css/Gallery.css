@@ -88,7 +88,7 @@
     background: white;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     .myGrid{
       grid-template-columns:  1fr 1fr 1fr;
       grid-template-areas:

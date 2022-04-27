@@ -106,7 +106,7 @@ text-align: center;}
 }
 
 
-@media screen and (max-width: 669px){
+@media screen and (max-width: 900px){
   .myGrid{
     display: grid;
     grid-template-columns: 1fr;
